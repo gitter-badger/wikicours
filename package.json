@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "wikicours",
+  "description": "Wikicours",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Thomas Kuntz <me@thomaskuntz.org>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/thomaskuntzz/wikicours"
   },
   "dependencies": {
     "gatsby": "^1.9.241",
