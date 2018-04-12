@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import styles from './index.module.css'
 
 // import Navigation from '../components/Navigation'
+import Breadcrumbs from '../components/Breadcrumb'
 
 class Template extends React.Component {
   render () {
@@ -15,6 +16,8 @@ class Template extends React.Component {
         </header>
 
         {/* <Navigation /> */}
+
+        <Breadcrumbs path={this.props.location.pathname} />
 
         {this.props.children()}
       </div>
