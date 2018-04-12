@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import styles from './index.module.css'
 
 class HomePage extends React.Component {
-  render() {
+  render () {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
@@ -14,7 +14,7 @@ class HomePage extends React.Component {
       <div>
         <Helmet title={siteTitle} />
 
-        <p className="about">
+        <p className='about'>
           Wikicours est un répertoire de cours en ligne de qualité, 📚✨ constamment amélioré par une communauté de professeurs et d'utilisateurs. 📝 Le tout gratuit et libre de droit. 💸🆓
         </p>
 
@@ -47,47 +47,47 @@ class HomePage extends React.Component {
           <h2>
             Contribuer
           </h2>
-          
+
           <p>
             Tout le monde peut améliorer Wikicours.
           </p>
-          
+
           <p>
             Users can already remix any public app on Glitch, and we want to give project owners control over their app's look,
-            so we do not force buttons into any apps. What we do want, though, is for our community to <em>encourage</em> 
-            others to remix and learn more about their apps, so we built a widget that you can include in your projects to generate 
+            so we do not force buttons into any apps. What we do want, though, is for our community to <em>encourage</em>
+            others to remix and learn more about their apps, so we built a widget that you can include in your projects to generate
             our neat little button wherever you like.
           </p>
-          
+
           <p>
-            Here's what it looks like: 
+            Here's what it looks like:
           </p>
         </section>
-        
+
         <section>
           <h2>
             Add the button!
           </h2>
-          
+
           <p>
             Users can already remix any public app on Glitch, and we want to give project owners control over their app's look,
-            so we do not force buttons into any apps. What we do want, though, is for our community to <em>encourage</em> 
-            others to remix and learn more about their apps, so we built a widget that you can include in your projects to generate 
+            so we do not force buttons into any apps. What we do want, though, is for our community to <em>encourage</em>
+            others to remix and learn more about their apps, so we built a widget that you can include in your projects to generate
             our neat little button wherever you like.
           </p>
-          
+
           <p>
-            Here's what it looks like: 
+            Here's what it looks like:
           </p>
         </section>
-        
+
         <section>
           <h2>
-            Happy Glitching! 
+            Happy Glitching!
           </h2>
-          
+
           <p>
-            We want to know about all the cool stuff you're making, remixed or not–let us know it by tweeting <a href="http://twitter.com/glitch">@glitch</a>! 
+            We want to know about all the cool stuff you're making, remixed or not–let us know it by tweeting <a href='http://twitter.com/glitch'>@glitch</a>!
           </p>
         </section>
       </div>

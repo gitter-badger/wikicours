@@ -6,7 +6,7 @@ import styles from './index.module.css'
 // import Navigation from '../components/Navigation'
 
 class Template extends React.Component {
-  render() {
+  render () {
     return (
       <div>
         <header>
