@@ -1,0 +1,34 @@
+.schoolAndGrade {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.schoolAndGrade > div {
+  flex-basis: calc(50% - 0.8em);
+  background-color: lightcyan;
+
+  border: 1px solid;
+}
+
+.schoolAndGrade > div > h4 {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.schoolAndGrade > div > div {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.schoolAndGrade > div > div a {
+  /* flex-grow: 1; */
+  min-width: 2em;
+  margin: 0 0.6em;
+  padding: 0.4em 1em;
+  background-color: MediumSpringGreen;
+  text-decoration: none;
+  
+  border: 1px solid;
+}
