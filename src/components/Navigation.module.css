@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  text-align: center;
+}
+
+nav a {
+  flex-grow: 1;
+  padding: 0.6em;
+  background-color: yellow;
+  color: magenta;
+  text-decoration: none;
+}
+
+a + a {
+  margin-left: 1em;
+}
+
+nav a:hover {
+  background-color: #F0F000;
+}
+
+nav a span {
+  border-bottom: 1px solid;
+}
+
+nav a.activeNavLink {
+  border: 1px solid;
+}
+
+nav a.activeNavLink span {
+  border-bottom: none;
+  font-weight: bold;
+}
