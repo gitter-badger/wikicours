@@ -1,11 +1,17 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import styles from './index.module.css'
+
 class Template extends React.Component {
   render() {
     return (
       <div>
-        <h1><Link to={'/'}>Gatsby Starter Blog</Link></h1>
+        <header>
+          <h1>{this.props.location.pathname === '/' ? '✏️ Wikicours 📚' : <Link to='/'>✏️ Wikicours 📚</Link>}</h1>
+          <h2>Des cours en ligne de qualité, libres de droits et améliorables par tous.</h2>
+        </header>
+
         {this.props.children()}
       </div>
     )
