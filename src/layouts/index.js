@@ -12,7 +12,7 @@ class Template extends React.Component {
       <div>
         <header>
           <h1>{this.props.location.pathname === '/' ? '✏️ Wikicours 📚' : <Link to='/'>✏️ Wikicours 📚</Link>}</h1>
-          <h2>Des cours en ligne de qualité, libres de droits et améliorables par tous.</h2>
+          <h2>{this.props.data.site.siteMetadata.description}</h2>
         </header>
 
         {/* <Navigation /> */}
@@ -26,3 +26,13 @@ class Template extends React.Component {
 }
 
 export default Template
+
+export const pageQuery = graphql`
+  query SiteDescriptionQuery {
+    site {
+      siteMetadata {
+        description
+      }
+    }
+  }
+`
