@@ -4,31 +4,38 @@
   text-align: center;
 }
 
-.schoolAndGrade > div {
+.schoolAndGrade .CollegeLycee {
   flex-basis: calc(50% - 0.8em);
-  background-color: lightcyan;
-
-  border: 1px solid;
+  padding: 1em;
+  padding-top: 1.33em;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
 }
 
-.schoolAndGrade > div > h4 {
+.schoolAndGrade .CollegeLycee h4 {
   font-weight: normal;
   font-style: italic;
+  margin: 0;
 }
 
-.schoolAndGrade > div > div {
+.schoolAndGrade .CollegeLycee div {
   display: flex;
   justify-content: center;
-  margin: 1em 0;
+  margin: 1.33em 0 0;
 }
 
-.schoolAndGrade > div > div a {
-  /* flex-grow: 1; */
+.schoolAndGrade .CollegeLycee div a {
   min-width: 2em;
   margin: 0 0.6em;
   padding: 0.4em 1em;
-  background-color: MediumSpringGreen;
+  color: #1a73e8;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  transition: background .2s .1s;
   text-decoration: none;
-  
-  border: 1px solid;
+}
+
+.schoolAndGrade .CollegeLycee div a:hover {
+  background: rgba(26,115,232,0.039);
+  border-color: #d2e3fc;
 }

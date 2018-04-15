@@ -1,44 +1,39 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import styles from './index.module.css'
 
 class HomePage extends React.Component {
   render () {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
-
+    const siteTitle = this.props.data.site.siteMetadata.title
     return (
       <div>
         <Helmet title={siteTitle} />
 
-        <p className='about'>
+        <p>
           Wikicours est un répertoire de cours en ligne de qualité, 📚✨ constamment amélioré par une communauté de professeurs et d'utilisateurs. 📝 Le tout gratuit et libre de droit. 💸🆓
         </p>
 
         <section className={styles.schoolAndGrade}>
-          <div>
+          <div className={styles.CollegeLycee}>
             <h4>Collège</h4>
 
             <div>
-              {/* <Link to=''>6<sup>ème</sup></Link> */}
-              <Link to=''>6e</Link>
-              <Link to=''>5e</Link>
-              <Link to=''>4e</Link>
-              <Link to=''>3e</Link>
+              <Link to='6e'>6<sup>e</sup></Link>
+              <Link to='5e'>5<sup>e</sup></Link>
+              <Link to='4e'>4<sup>e</sup></Link>
+              <Link to='3e'>3<sup>e</sup></Link>
             </div>
           </div>
 
-          <div>
+          <div className={styles.CollegeLycee}>
             <h4>Lycée</h4>
 
             <div>
-              {/* <Link to=''>2<sup>nde</sup></Link> */}
-              <Link to=''>2nde</Link>
-              <Link to=''>1ère</Link>
-              <Link to=''>Terminale</Link>
+              <Link to='2nde'>2<sup>nde</sup></Link>
+              <Link to='1ère'>1<sup>ère</sup></Link>
+              <Link to='Terminale'>Terminale</Link>
             </div>
           </div>
         </section>
@@ -98,11 +93,10 @@ class HomePage extends React.Component {
 export default HomePage
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query SiteTitleQuery {
     site {
       siteMetadata {
         title
-        description
       }
     }
   }
