@@ -1,5 +1,8 @@
 # Wikicours 📖✍️
 
+[![Build Status](https://travis-ci.org/thomaskuntzz/wikicours.svg?branch=master)](https://travis-ci.org/thomaskuntzz/wikicours)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+
 Wikicours is an online repository of school lessons that anyone can improve through a wiki ✏️📚
 <br />
 You can see it as a “Wikipedia of school lessons”, all the content is under free license 🆓🎓
