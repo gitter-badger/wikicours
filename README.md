@@ -18,3 +18,10 @@ The name could translate to Wikicourse in English.
 ## Running in development
 
 `gatsby develop`
+
+## License
+
+The content of this repository is bound by the following licenses:
+
+* The computer software is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+* All the content in [`/src/pages`](/src/pages) and subdirectories is licensed under the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
