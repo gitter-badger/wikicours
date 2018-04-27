@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/thomaskuntzz/wikicours.svg?branch=master)](https://travis-ci.org/thomaskuntzz/wikicours)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+[![first-timers-only](http://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat)](http://www.firsttimersonly.com/)
 
 Wikicours is an online repository of school lessons that anyone can improve through a wiki ✏️📚
 <br />
