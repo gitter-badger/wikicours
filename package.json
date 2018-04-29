@@ -29,7 +29,7 @@
     "gh-pages": "^1.1.0",
     "prettier": "^1.11.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/thomaskuntzz/wikicours#readme",
   "keywords": [
     "gatsby"
   ],
@@ -37,7 +37,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/thomaskuntzz/wikicours.git"
   },
   "scripts": {
     "dev": "gatsby develop",
