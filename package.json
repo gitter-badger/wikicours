@@ -1,11 +1,18 @@
 {
   "name": "wikicours",
-  "description": "Wikicours",
-  "version": "1.0.0",
-  "author": "Thomas Kuntz <me@thomaskuntz.org>",
+  "description": "Wikicours is an online repository of school lessons that anyone can improve through a wiki ✏️📚",
+  "author": "Thomas Kuntz <me@thomaskuntz.org> (https://thomaskuntz.org)",
+  "homepage": "https://github.com/thomaskuntzz/wikicours#readme",
+  "repository": "thomaskuntzz/wikicours",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thomaskuntzz/wikicours"
+    "url": "https://github.com/thomaskuntzz/wikicours/issues",
+    "email": "admin@wikicours.org"
   },
+  "keywords": [
+    "gatsby"
+  ],
+  "main": "n/a",
   "dependencies": {
     "gatsby": "^1.9.255",
     "gatsby-link": "^1.6.41",
@@ -27,16 +34,6 @@
     "snazzy": "^7.1.1",
     "standard": "^11.0.1"
   },
-  "homepage": "https://github.com/thomaskuntzz/wikicours#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thomaskuntzz/wikicours.git"
-  },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "standard | snazzy",
@@ -45,6 +42,8 @@
     "build": "gatsby build"
   },
   "standard": {
-    "globals": [ "graphql" ]
+    "globals": [
+      "graphql"
+    ]
   }
 }
