@@ -18,7 +18,15 @@ The name could translate to Wikicourse in English.
 
 ## Running in development
 
-`gatsby develop`
+This site is built using [Gatsby](https://github.com/gatsbyjs/gatsby), a static site generator for React. ⚛️
+
+To run the site locally, clone the repository, install the dependencies and start the development live server:
+
+```sh
+git clone git@github.com:thomaskuntzz/wikicours.git
+npm install
+gatsby develop
+```
 
 ## License
 
