@@ -24,9 +24,8 @@
     "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.7.0",
-    "prettier": "^1.12.1"
+    "snazzy": "^7.1.1",
+    "standard": "^11.0.1"
   },
   "homepage": "https://github.com/thomaskuntzz/wikicours#readme",
   "keywords": [
@@ -40,12 +39,12 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint": "standard | snazzy",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "build": "gatsby build"
+  },
+  "standard": {
+    "globals": [ "graphql" ]
   }
 }
