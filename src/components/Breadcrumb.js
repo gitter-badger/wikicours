@@ -38,7 +38,7 @@ const Breadcrumbs = (props) => {
   */
 
   const pathMap = props.path
-    .split('/')      // produces empty strings for leading and trailing slash
+    .split('/') // produces empty strings for leading and trailing slash
     .filter(Boolean) // removes falsy items and thus empty strings
     .reduce((accu, current, index, pathArray) => {
       const path = index !== 0

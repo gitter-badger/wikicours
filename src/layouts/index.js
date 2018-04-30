@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import styles from './index.module.css'
+// import styles from './index.module.css'
 
 // import Navigation from '../components/Navigation'
 import Breadcrumbs from '../components/Breadcrumb'

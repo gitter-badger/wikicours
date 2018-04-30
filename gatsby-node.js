@@ -45,8 +45,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             context: {
               slug: post.node.fields.slug,
               previous,
-              next,
-            },
+              next
+            }
           })
         })
       })
@@ -62,7 +62,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value
     })
   }
 }
