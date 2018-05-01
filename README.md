@@ -1,5 +1,7 @@
 # Wikicours 📖✍️
 
+[![Join the chat at https://gitter.im/Wikicours/Lobby](https://badges.gitter.im/Wikicours/Lobby.svg)](https://gitter.im/Wikicours/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/thomaskuntzz/wikicours.svg?branch=master)](https://travis-ci.org/thomaskuntzz/wikicours)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 [![first-timers-only](http://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat)](http://www.firsttimersonly.com/)
